@@ -1,0 +1,6 @@
+
+Exportar relatório html:
+rspec spec\Bank --format html --out report.html
+
+Exportar relatório XML para continuosIntegration:
+rspec --format RspecJunitFormatter --out report.xml
